@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deeksha Fitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    * {
+        font-style: italic;
+    }
+
+    /* css Reset  */
+    body {
+
+        background: url('img/people-2604149_1920.jpg');
+
+        color: white;
+
+    }
+
+    .left {
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: absolute;
+        left: 30px;
+        top=30px;
+
+
+    }
+
+    .left img {
+        width: 140px;
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 36%;
+        top=30px;
+        margin: 12px auto;
+        /* border: 2px solid green; */
+
+    }
+
+    .right {
+        position: absolute;
+        top: 22px;
+        right: 20px;
+        /* border: 2px solid yellow; */
+        display: inline-block;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 15px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 20px 20px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li :active {
+        color: rgb(171, 234, 250);
+        text-decoration: underline;
+    }
+
+    .btn {
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 4px 14px;
+        border: 2px solid white;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: light gray;
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 100px 80px;
+        padding: 10px;
+        border-radius: 10px;
+        width: 33%;
+
+    }
+
+    .form-group input {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        display: block;
+        width: 300px;
+        padding: 10px;
+        border: 2px solid black;
+        margin: 5px;
+        font-size: 15px;
+        border-radius: 10px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 23%;
+        margin: auto;
+
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo  -->
+        <div class="left">
+            <img src="img/dumbbells-2465478_640.jpg" alt="">
+            <div>Deeksha Fitness</div>
+        </div>
+        <!-- mid box for navbar  -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness centre</a></li>
+                <li><a href="#">Contact us</a> </li>
+            </ul>
+        </div>
+        <!-- right box for buttons  -->
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Renukoot now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone number">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email Id">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
